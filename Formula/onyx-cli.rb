@@ -1,25 +1,25 @@
 class OnyxCli < Formula
   desc "Cross-platform CLI for Onyx Cloud Database"
   homepage "https://github.com/OnyxDevTools/onyx-cli"
-  version "0.7.0"
+  version "0.8.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.7.0/onyx_darwin_amd64.tar.gz"
-      sha256 "edaed6cd1dc86397c927804c972aed2f2b47c1406fca530c90736447458af3fc"
+      url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.8.0/onyx_darwin_amd64.tar.gz"
+      sha256 "ae5f3534d66c70d3454f353751f41922556586011deb0317f99145c503a4b869"
     else
-      url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.7.0/onyx_darwin_arm64.tar.gz"
-      sha256 "b5c685194698ec1cdc775b5244dafeecf9d9cb592f4982c7ff4e77d7f8d8b1b5"
+      url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.8.0/onyx_darwin_arm64.tar.gz"
+      sha256 "a0a575dfe8c7a83e3e345e58c0800f9e3485a40d894a9bf053a794d9461d0b91"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.7.0/onyx_linux_amd64.tar.gz"
-      sha256 "f5ec603255ae2225c3000a420bd2179518b21adfa9c7c2798e5bf448b168969e"
+      url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.8.0/onyx_linux_amd64.tar.gz"
+      sha256 "dc21af9d8fe84f8123e9bed3432fa6aeba8447686b72b753a1b9db7b31deb524"
     else
-      url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.7.0/onyx_linux_arm64.tar.gz"
-      sha256 "872a7fd7656a2c10900cfbcd605bf949feef8a1af1c1ad9859f31ba354199c81"
+      url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.8.0/onyx_linux_arm64.tar.gz"
+      sha256 "a4b8daae3afd13ac846d041ab86ce56f8212596bd2f8c174229c2a41c7564663"
     end
   end
 

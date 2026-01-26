@@ -6,20 +6,20 @@ class OnyxCli < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.4.0/onyx_darwin_amd64.tar.gz"
-      sha256 "badcc819fb6b75f7437e5418cbd21229b8387afff2d7a264f8ddfd9af29d19e1"
+      sha256 "1d5b76f623371e43205eb1677dec64cc8ac93fd80107d3742833d799f274fb08"
     else
       url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.4.0/onyx_darwin_arm64.tar.gz"
-      sha256 "906e742a816a690c89ee87a76c0a46e6d1766033f0d80a4f6bbc6e4e32dae1e4"
+      sha256 "9474ca5e0c15a76b30e9101578517ebf09c09cfde88203b571a17cfce94b090f"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.4.0/onyx_linux_amd64.tar.gz"
-      sha256 "e1d88eb499979dbd313afe9d6c6e8ce6db67b34a0e4a9ef62c5ac5a0e157a2f5"
+      sha256 "ae8486fe27b2525f3baea0b6c088f6d4fecbaad2e1d1eefd1c65232f7ec47bcb"
     else
       url "https://github.com/OnyxDevTools/onyx-cli/releases/download/v0.4.0/onyx_linux_arm64.tar.gz"
-      sha256 "ffde1d4659d728c99cdbe084c7a8efbdc28b17ec85c8c818df05bc45fcdf3f4d"
+      sha256 "1a88d3da074fe089402a0e1a0892b57fdd1555e37ced91c1d2d276811faeaf5f"
     end
   end
 

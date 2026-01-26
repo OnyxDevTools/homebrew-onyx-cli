@@ -6,4 +6,10 @@ Install:
 brew tap OnyxDevTools/onyx-cli
 brew install onyx-cli
 onyx version
+
+Update:
+```
+brew update
+brew upgrade onyx-cli
+```
 ```
